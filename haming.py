@@ -105,7 +105,7 @@ def codificar_hamming(binario, tipo_paridad):
     return ''.join(map(str, hamming)) # devuelve el resultado en una cadena para poder ser printeado 
 
 
-def mostrar_tabla_hamming(binario, hamming):
+def mostrar_tabla_hamming(binario, hamming, tipo_paridad):
 
     # Convertir a listas de enteros
     bits_hamming = [int(bit) for bit in hamming] 
